@@ -77,7 +77,7 @@ async function setGitHubRulesetsGeneratorToPlop(generatorNameBasic, generatorNam
      }
   ]
   plop.setGenerator(generatorNameBasic, {
-    description: "setup GitHub branch rulesets",
+    description: 'setup GitHub branch rulesets',
     prompts: commonPrompts,
     actions: (data) => {
 
@@ -100,7 +100,7 @@ async function setGitHubRulesetsGeneratorToPlop(generatorNameBasic, generatorNam
   });
 
   plop.setGenerator(generatorNameAdvanced, {
-    description: "setup GitHub branch and tag rulesets",
+    description: 'setup GitHub branch and tag rulesets',
     prompts: [
       ...commonPrompts,
       {
