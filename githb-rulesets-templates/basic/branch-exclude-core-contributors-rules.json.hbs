@@ -1,0 +1,29 @@
+{
+  "name": "branch-exclude-core-contributors-rules",
+  "target": "branch",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+      {{#each targetBranches}}
+        "refs/heads/{{this}}"{{#unless @last}},{{/unless}}
+      {{/each}}
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "update"
+    }
+  ],
+  "bypass_actors": [
+  {{#each bypassRoles}}
+    {
+      "actor_id": {{this}},
+      "actor_type": "RepositoryRole",
+      "bypass_mode": "always"
+    }{{#unless @last}},{{/unless}}
+  {{/each}}
+  ]
+}

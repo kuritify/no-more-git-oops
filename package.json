@@ -1,0 +1,63 @@
+{
+  "name": "no-more-git-oops",
+  "author": "Kuritify <kuri.creep.kuri@gmail.com>",
+  "version": "0.0.1",
+  "description": "Register a generator to Plop for setting up well-inspected GitHub rulesets",
+  "type": "commonjs",
+  "bin": {
+    "nmgoops": "bin/no-more-git-oops.js"
+  },
+  "main": "src/index.js",
+  "homepage": "https://github.com/kuritify/no-more-git-oops",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kuritify/no-more-git-oops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kuritify/no-more-git-oops/issues"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "src",
+    "bin",
+    "__tests__",
+    "githb-rulesets-templates"
+  ],
+  "keywords": [
+    "generator",
+    "github",
+    "github-rulesets",
+    "plop",
+    "generate",
+    "plop"
+  ],
+  "packageManager": "npm@10.9.0",
+  "scripts": {
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest **/*.spec.js **/**/*.spec.js",
+    "lint": "gts lint",
+    "fix": "gts fix",
+    "lint_gha": "docker run -i --init --rm -v $INIT_CWD/.github/workflows:/workflows rhysd/actionlint:1.7.3 -color $(ls .github/workflows/*.yml | awk -F '/' '{print \"/workflows/\"$NF}')"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0",
+    "chalk": "4.1.2",
+    "json-diff": "^1.0.6",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8",
+    "node-plop": "^0.32.0",
+    "octokit": "^4.0.2",
+    "plop": "^4.0.1",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest": "^28.8.3",
+    "gts": "^6.0.0",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "preferGlobal": true
+}
