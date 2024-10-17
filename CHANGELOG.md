@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/kuritify/no-more-git-oops/compare/v0.1.0...v0.2.0) (2024-10-17)
+
+
+### Features
+
+* remove trush ([#4](https://github.com/kuritify/no-more-git-oops/issues/4)) ([e32f17a](https://github.com/kuritify/no-more-git-oops/commit/e32f17a2dfd310c7885476df52219359586204c0))
+
 ## [0.1.0](https://github.com/kuritify/no-more-git-oops/compare/v0.0.1...v0.1.0) (2024-10-17)
 
 
