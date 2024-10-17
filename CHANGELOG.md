@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/kuritify/no-more-git-oops/compare/v0.2.0...v0.2.1) (2024-10-17)
+
+
+### Bug Fixes
+
+* type README.md ([6f4de30](https://github.com/kuritify/no-more-git-oops/commit/6f4de303e972b6816c359649065595ad08207da1))
+
 ## [0.2.0](https://github.com/kuritify/no-more-git-oops/compare/v0.1.0...v0.2.0) (2024-10-17)
 
 
