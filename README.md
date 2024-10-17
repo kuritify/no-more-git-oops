@@ -151,6 +151,8 @@ The `github-rulesets-templates` folder will have the following structure:
 └── branch-exclude-core-contributors-rules.json.hbs
 ```
 
+`no-more-git-oops` traverse json.hbs under specified template directories, then separately set rulesets one by one.
+
 Please implement based on [well-inspected rulesets](https://github.com/kuritify/no-more-git-oops/tree/main/githb-rulesets-templates/basic) as a reference.
 
 ## Common Questions
