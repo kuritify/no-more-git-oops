@@ -5,7 +5,7 @@
 
 ### Bug Fixes
 
-* REAMDE&gt;md ([#7](https://github.com/kuritify/no-more-git-oops/issues/7)) ([68b76b0](https://github.com/kuritify/no-more-git-oops/commit/68b76b0205c61362ed1d873c3402466b0f76b0cb))
+* REAMDE.md ([#7](https://github.com/kuritify/no-more-git-oops/issues/7)) ([68b76b0](https://github.com/kuritify/no-more-git-oops/commit/68b76b0205c61362ed1d873c3402466b0f76b0cb))
 
 ## [0.2.1](https://github.com/kuritify/no-more-git-oops/compare/v0.2.0...v0.2.1) (2024-10-17)
 
