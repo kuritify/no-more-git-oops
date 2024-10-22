@@ -109,8 +109,7 @@ Then, execute your PLOP using the following command:
 
 ```javascript
 //  plopfile.json
-mport {setGitHubRulesetActionToPlop} from 'no-more-git-oops';
-import path from 'path';
+import {setGitHubRulesetActionToPlop} from 'no-more-git-oops';
 
 export default  function (plop) {
   // set no-more-git-oops actions setActonType
