@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/kuritify/no-more-git-oops/compare/v0.2.2...v0.2.3) (2024-10-28)
+
+
+### Bug Fixes
+
+* strict_required_status_checks_policy true to false ([#10](https://github.com/kuritify/no-more-git-oops/issues/10)) ([edcca3c](https://github.com/kuritify/no-more-git-oops/commit/edcca3c01bf2bb1221d5ed7105a72e23962a9de0))
+
 ## [0.2.2](https://github.com/kuritify/no-more-git-oops/compare/v0.2.1...v0.2.2) (2024-10-22)
 
 
