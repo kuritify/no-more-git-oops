@@ -108,7 +108,7 @@ Then, execute your PLOP using the following command:
 `no-more-git-oops` also allows you to fully customize GitHub rulesets to meet your specific requirements using the [setActionType](https://plopjs.com/documentation/#setactiontype) API of PLOP.
 
 ```javascript
-//  plopfile.json
+// plopfile.mjs
 mport {setGitHubRulesetActionToPlop} from 'no-more-git-oops';
 import path from 'path';
 
