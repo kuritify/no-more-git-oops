@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/kuritify/no-more-git-oops/compare/v0.2.3...v0.2.4) (2024-11-06)
+
+
+### Bug Fixes
+
+* set mask to passwor prompt ([#12](https://github.com/kuritify/no-more-git-oops/issues/12)) ([1f037c6](https://github.com/kuritify/no-more-git-oops/commit/1f037c676aa97d739a3ee381aa2315ecbeacac16))
+
 ## [0.2.3](https://github.com/kuritify/no-more-git-oops/compare/v0.2.2...v0.2.3) (2024-10-28)
 
 
