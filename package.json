@@ -1,7 +1,7 @@
 {
   "name": "no-more-git-oops",
   "author": "Kuritify <kuri.creep.kuri@gmail.com>",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Register a generator to Plop for setting up well-inspected GitHub rulesets",
   "type": "commonjs",
   "bin": {
