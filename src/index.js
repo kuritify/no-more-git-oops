@@ -18,7 +18,6 @@ async function setGitHubRulesetsGeneratorToPlop(generatorNameBasic, generatorNam
 
   // for prompt validation
   const nullValidation = (value) => {
-    console.log(value)
     if (value) {
       return true;
     }
@@ -44,6 +43,7 @@ async function setGitHubRulesetsGeneratorToPlop(generatorNameBasic, generatorNam
     {
       type: 'password',
       name: 'bearerToken',
+      mask: true,
       message: 'Bearar token to auth GitHub',
       validate: nullValidation,
     },

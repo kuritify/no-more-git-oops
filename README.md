@@ -124,6 +124,7 @@ export default  function (plop) {
       {
         type: 'password',
         name: 'bearerToken',
+        mask: true,
       }
     ],
     actions: [
